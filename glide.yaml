@@ -1,0 +1,9 @@
+package: github.com/kevingbb/brigadegateway
+import:
+- package: github.com/Azure/brigade
+  subpackages:
+  - pkg/brigade
+  - pkg/storage
+  - pkg/storage/kube
+  - pkg/webhook
+- package: github.com/gin-gonic/gin

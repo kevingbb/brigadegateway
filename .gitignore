@@ -1,0 +1,4 @@
+server
+vendor/
+rootfs/khgateway
+rootfs/server
